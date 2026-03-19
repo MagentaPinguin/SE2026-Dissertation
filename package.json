@@ -1,0 +1,15 @@
+{
+  "name": "se2026-dissertation",
+  "version": "1.0.0",
+  "description": "This is the working repository for my dissertation project.",
+  "scripts": {
+    "dev": "npm run build:react --workspace=ui && npm run transpile:electron --workspace=ui  && npm run dev:electron --workspace=ui "   
+  },
+  "workspaces": [
+    "./ui",
+    "./components"
+  ],
+  "keywords": [],
+  "author": "Zoltan Vasile Szabo",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+    "appId": "com.disertation.UI",
+    "files": [ "dist-electron","dist-react"],
+    "icon": "../icon.ico",
+   
+    "directories": {
+        "output": "../../../Desktop/APP"
+    },
+
+
+    "win": {
+        "target": ["portable", "msi"]
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "mac": {
+        "target": "dmg"
+    }
+
+    
+}

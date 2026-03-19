@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+    
+        /** Enable all strict 
+        // Type-checking options - null-safety, strict function types, strict property initialization, etc.   
+        */
+        "strict": true, 
+    
+        // 
+        "target": "ES2023",
+        // Include the latest JavaScript features in the emitted code
+        "module": "nodenext",        
+
+        // Output directory for compiled JavaScript files
+        "outDir": "../../dist-electron",
+
+        // ignore type errors for dependencies 
+        "skipLibCheck": true,
+ 
+        // Enable support for importing CommonJS modules using default imports
+        "allowSyntheticDefaultImports": true,
+    }
+}
